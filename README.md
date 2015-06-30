@@ -1,6 +1,12 @@
 ##Optimal Control EPG
 
-This Matlab code may be used to reproduce results from an upcoming paper (link to be posted soon) on optimal control design of MRI pulse sequences. The work builds on prior work (see [this](http://dx.doi.org/10.1002/mrm.25192) paper, and [this](http://dx.doi.org/10.1002/mrm.25192) one) but treats the design problem using optimal control methods, rather than simple numerical optimization. The result is highly accelerated and much stabler calculation. Test data is supplied in addition to the code in this repository. This may be downloaded from the [releases](https://github.com/mriphysics/optimal-control-EPG/releases) page.
+This Matlab code may be used to reproduce results from an upcoming paper (link to be posted soon) on optimal control design of MRI pulse sequences. The work builds on prior work (see [this](http://dx.doi.org/10.1002/mrm.25192) paper, and [this](http://dx.doi.org/10.1002/mrm.25192) one) but treats the design problem using optimal control methods, rather than simple numerical optimization. The result is highly accelerated and much stabler calculation.
+
+Test data is supplied in addition to the code in this repository. This may be downloaded from the [releases](https://github.com/mriphysics/optimal-control-EPG/releases) page.
+
+### Releases
+
+The [releases](https://github.com/mriphysics/optimal-control-EPG/releases) page contains downloadable archives of the code along with test data (B1 field maps in .mat format). The Windows version also contains .exe compiled binaries.
 
 ###Contents
   1. [Introduction](#intro)
