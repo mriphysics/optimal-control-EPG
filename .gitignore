@@ -1,5 +1,6 @@
 # Ignore all
 *
+*/*
 
 # Unignore all Matlab, cpp, txt & md
 !*.m
