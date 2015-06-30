@@ -1,0 +1,11 @@
+# Ignore all
+*
+
+# Unignore all Matlab, cpp, txt & md
+!*.m
+!*.cpp
+!*.txt
+!*.md
+
+# Also unignore this .gitignore file
+!.gitignore
