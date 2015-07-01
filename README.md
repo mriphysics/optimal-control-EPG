@@ -16,7 +16,7 @@ The [releases](https://github.com/mriphysics/optimal-control-EPG/releases) page 
 
 ### 1. Introduction
 
-This code runs on Matlab with the optimization toolbox (necessary for the function fmincon.m). The EPG simulator is implemented in C++ (Linux and Mac users) and in Matlab (all operative systems). The user can choose which version. The C++ implementation is faster but it requires the open-source linear algebra library ARMADILLO version 5.100 or higher. For more info and download see: http://arma.sourceforge.net
+test This code runs on Matlab with the optimization toolbox (necessary for the function fmincon.m). The EPG simulator is implemented in C++ (Linux and Mac users) and in Matlab (all operative systems). The user can choose which version. The C++ implementation is faster but it requires the open-source linear algebra library ARMADILLO version 5.100 or higher. For more info and download see: http://arma.sourceforge.net
 For information about the compilation of the c++ code see section 2.
 
 <a name="compile"></a>
