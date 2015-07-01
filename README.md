@@ -2,6 +2,8 @@
 
 This Matlab code may be used to reproduce results from an upcoming paper (link to be posted soon) on optimal control design of MRI pulse sequences. The work builds on prior work (see [this](http://dx.doi.org/10.1002/mrm.25192) paper, and [this](http://dx.doi.org/10.1002/mrm.25192) one) but treats the design problem using optimal control methods, rather than simple numerical optimization. The result is highly accelerated and much stabler calculation.
 
+Alessandro Sbrizzi & Shaihan Malik, June 2015 
+
 **Releases:**
 
 The [releases](https://github.com/mriphysics/optimal-control-EPG/releases) page contains downloadable archives of the code along with test data (B1 field maps in .mat format). The Windows version also contains .exe compiled binaries.
@@ -16,7 +18,7 @@ The [releases](https://github.com/mriphysics/optimal-control-EPG/releases) page 
 
 ### 1. Introduction
 
-test This code runs on Matlab with the optimization toolbox (necessary for the function fmincon.m). The EPG simulator is implemented in C++ (Linux and Mac users) and in Matlab (all operative systems). The user can choose which version. The C++ implementation is faster but it requires the open-source linear algebra library ARMADILLO version 5.100 or higher. For more info and download see: http://arma.sourceforge.net
+This code runs on Matlab with the optimization toolbox (necessary for the function fmincon.m). The EPG simulator is implemented in C++ and in Matlab. The user can choose which version. The C++ implementation is faster but it requires the open-source linear algebra library ARMADILLO version 5.100 or higher. For more info and download see: http://arma.sourceforge.net
 For information about the compilation of the c++ code see section 2.
 
 <a name="compile"></a>
